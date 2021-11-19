@@ -1,0 +1,118 @@
+<html>
+    <head>
+
+        <style>
+        
+            .menu{
+                list-style-type: none;
+                background-color: #142b3ad7;
+                overflow: auto;
+            
+            
+            }
+            .menu li:hover{
+                background-color:rgb(48, 50, 58);
+            }
+            .menu li a{
+                text-decoration: none;
+                color: white;
+            
+            }
+            .menu li{ 
+                float: left;
+                padding: 20px;
+            }
+            .submenu li{
+                float: none;
+            }
+            .submenu{
+                list-style-type: none;
+                background-color: gray;
+                overflow: auto;
+                padding-left: 0px;
+                position: absolute;
+                display: none;
+            }
+            .menu li:hover .submenu{
+                display: block;
+            }
+       </style>
+    </head>
+   <body>
+       <div id="sav" class="sav"> My First Menu</div>
+       <style>
+           #sav{
+                color: rgb(53, 50, 63);
+                font-family: fantasy;
+                font-size: 20px;
+                background-color:yellow;
+                padding: 2px;
+                border-left: 6px solid rgb(53, 50, 63); 
+
+           }
+           .body{
+               background-color: rgb(180, 176, 176);
+           }
+           .menu li a{
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+           }
+       </style>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News</a>
+                <ul class="submenu">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Yahoo</a></li>
+                    <li><a href="#">Newspaper</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Downloads</a>
+                <ul class="submenu">
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">voice</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Image</a></li>
+                </ul>
+            </li>
+                    <li><a href="#">Login</a></li>
+            <li><a href="#"><input type="search" placeholder="search"></a></li>
+            
+        </ul>
+   </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
